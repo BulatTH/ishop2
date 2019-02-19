@@ -1,0 +1,7 @@
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) index.php?$1 [L,QSA]
+
+# L - last, т.е. это последнее правило, и другие применяться не должны
+# QSA - query string append, если у нас будут какие то GET параметры дополнительные,
+# они должны дополняться к существующим GET параметрам

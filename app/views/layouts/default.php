@@ -9,11 +9,7 @@
 </head>
 <body>
 
-<h1> Default layout </h1>
-
 <?= $content ?>
-
-
 
 <?php
 use \RedBeanPHP\R as R;
@@ -21,7 +17,7 @@ $logs = R::getDatabaseAdapter()
     ->getDatabase()
     ->getLogger();
 
-debug( $logs->grep( 'SELECT' ) );
+//debug( $logs->grep( 'SELECT' ) );
 ?>
 </body>
 </html>

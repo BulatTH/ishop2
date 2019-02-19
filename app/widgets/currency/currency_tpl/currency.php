@@ -1,7 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: hairutdinovbr
- * Date: 2019-02-19
- * Time: 1:19 PM
- */
+<option value="" class="label"><?= $this->currency['code'] ?></option>
+<?php foreach ($this->currencies as $key => $v): ?>
+    <?php if ($key !== $this->currency['code']): ?>
+        <option value="<?= $key ?>"> <?= $key ?> </option>
+    <?php endif ?>
+<?php endforeach; ?>

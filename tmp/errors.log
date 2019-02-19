@@ -2,3 +2,109 @@
 ---------------------
 [2019-02-17 07:51:59] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
 ---------------------
+[2019-02-19 12:27:49] Текст ошибки: Call to a member function findOne() on null | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 881
+---------------------
+[2019-02-19 12:28:14] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:26] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:27] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:28] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:28] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:28] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:28] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:29] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:31] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:31] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:31] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:32] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:28:45] Текст ошибки: Call to a member function findOne() on null | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 881
+---------------------
+[2019-02-19 12:28:46] Текст ошибки: Call to a member function findOne() on null | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 881
+---------------------
+[2019-02-19 12:28:57] Текст ошибки: Call to a member function findOne() on null | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 881
+---------------------
+[2019-02-19 12:28:58] Текст ошибки: Call to a member function findOne() on null | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 881
+---------------------
+[2019-02-19 12:28:58] Текст ошибки: Call to a member function findOne() on null | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 881
+---------------------
+[2019-02-19 12:29:07] Текст ошибки: Class 'R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 19
+---------------------
+[2019-02-19 12:29:08] Текст ошибки: Class 'R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 19
+---------------------
+[2019-02-19 12:29:16] Текст ошибки: Call to a member function findOne() on null | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 881
+---------------------
+[2019-02-19 12:29:16] Текст ошибки: Call to a member function findOne() on null | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php | Строка: 881
+---------------------
+[2019-02-19 12:31:33] Текст ошибки: Class 'R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:31:40] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:31:55] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:31:55] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:31:56] Текст ошибки: Class 'app\controllers\R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php | Строка: 18
+---------------------
+[2019-02-19 12:32:17] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:32:19] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:32:41] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:32:56] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:33:00] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:33:04] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:34:06] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:34:08] Текст ошибки: Не найден вид /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Currency/change.php | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/base/View.php | Строка: 49
+---------------------
+[2019-02-19 12:34:48] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:34:51] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:35:13] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:35:15] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:36:04] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:36:06] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:36:22] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:36:24] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:36:33] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:36:34] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:36:49] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:36:50] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:37:02] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:37:05] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:37:10] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:37:31] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:37:34] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-19 12:37:36] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------

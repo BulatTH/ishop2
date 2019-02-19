@@ -114,3 +114,5 @@
 ---------------------
 [2019-02-19 12:44:39] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
 ---------------------
+[2019-02-19 13:22:15] Текст ошибки: Class 'R' not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/AppController.php | Строка: 37
+---------------------

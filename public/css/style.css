@@ -767,8 +767,8 @@ a.mask {
     padding: 0;
     margin: 25px 0 0 0;
 }
-.infor-left ul li{
 	display:block;
+.infor-left ul li{
 	list-style:none;
 	margin-top:10px;
 }
@@ -3065,3 +3065,8 @@ ul.tag-men {
 }
 }
 /*--media-quaries-end-here--*/
+
+
+.product-one > .product-left {
+	margin-bottom: 20px;
+}

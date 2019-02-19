@@ -21,7 +21,10 @@ class MainController extends AppController
     public function indexAction()
     {
         // App::$app->getProperty('shop_name')
+        $brands = R::find('brand', " LIMIT 3");
+
         $this->setMeta( 'Главная страница', "Описание", "Ключи");
 
+        $this->set(compact('brands'));
     }
 }

@@ -215,6 +215,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="menu">
                     <?php new \app\widgets\menu\Menu([
                         "tpl" => WWW . "/menu/menu.php",
+                        "attrs" => [
+                                "style" => "color:red"
+                        ]
                     ]); ?>
                 </div>
                 <div class="clearfix"> </div>

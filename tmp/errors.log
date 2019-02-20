@@ -354,3 +354,41 @@
 ---------------------
 [2019-02-20 11:39:54] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
 ---------------------
+[2019-02-20 11:54:23] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:04:00] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:04:08] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:07:03] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:07:17] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:10:02] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:11:01] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:19:29] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:23:11] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:23:13] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1   -- keep-cache' at line 1 | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 188
+---------------------
+[2019-02-20 12:23:52] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1   -- keep-cache' at line 1 | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 188
+---------------------
+[2019-02-20 12:24:02] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1   -- keep-cache' at line 1 | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 188
+---------------------
+[2019-02-20 12:24:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1   -- keep-cache' at line 1 | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 188
+---------------------
+[2019-02-20 12:24:06] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1   -- keep-cache' at line 1 | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 188
+---------------------
+[2019-02-20 12:24:07] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:24:09] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1   -- keep-cache' at line 1 | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 188
+---------------------
+[2019-02-20 12:24:35] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:27:15] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-20 12:27:33] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------

@@ -56,7 +56,7 @@
                                     <h3><a href="product/<?= $hit->alias ?>"> <?= $hit->title ?> </a> </h3>
                                     <p>Explore Now</p>
                                     <h4>
-                                        <a class="add-to-cart-link" href="cart/add?id=<?= $hit->id ?>"><i></i></a> <span class=" item_price">
+                                        <a class="add-to-cart-link" data-id="<?= $hit->id ?>" href="cart/add?id=<?= $hit->id ?>"><i></i></a> <span class=" item_price">
                                             <?= $curr['symbol_left'] ?>
                                                 <?= $hit->price * $curr['value'] ?></span>
                                             <?= $curr['symbol_right'] ?>

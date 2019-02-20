@@ -24,7 +24,6 @@ class ProductController extends AppController
         // Breadcrumbs
 
         // Связанные товары
-
         $related = R::getAll("SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$product->id]);
 
         // Запись в куки запрощенного товара
@@ -32,10 +31,15 @@ class ProductController extends AppController
         // Получить все просмотренные товары из кук
 
         // Галерея
+        $gallery = R::findAll("gallery", "product_id = ?", [$product->id]);
 
         // Все модификации товара
 
         $this->setMeta($product->title, $product->description, $product->keywords);
-        $this->set(compact('product', 'related'));
+        $this->set(compact(
+            'product',
+            'related',
+            'gallery'
+        ));
     }
 }

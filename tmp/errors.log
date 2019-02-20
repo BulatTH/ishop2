@@ -240,3 +240,9 @@
 ---------------------
 [2019-02-20 07:31:48] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
 ---------------------
+[2019-02-20 07:57:27] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/ProductController.php | Строка: 21
+---------------------
+[2019-02-20 07:57:35] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/ProductController.php | Строка: 21
+---------------------
+[2019-02-20 07:57:37] Текст ошибки: Метод app\controllers\ProductController::indexAction не найден | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 45
+---------------------

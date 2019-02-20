@@ -9,6 +9,7 @@
 namespace app\controllers;
 
 
+use app\models\Cart;
 use RedBeanPHP\R;
 
 class CartController extends AppController
@@ -23,15 +24,20 @@ class CartController extends AppController
             $product = R::findOne("product", "id = ?", [$id]);
 
             if (!$product) return false;
-            
+
             if ($mod_id) {
                 $mod = R::findOne("modification", "id = :mod_id AND product_id = :prod_id", [
                     ":mod_id" => $mod_id,
                     ":prod_id" => $id
                 ]);
-                debug($mod);
             }
         }
-        die();
+        $cart = new Cart();
+        $cart->addToCart($product, $qty, $mod);
+        if ($this->isAjax()) {
+            $this->loadView("cart_modal");
+        }
+        redirect();
+
     }
 }

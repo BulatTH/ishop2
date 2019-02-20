@@ -9,6 +9,8 @@
 namespace ishop\base;
 
 
+use ishop\App;
+
 abstract class Controller
 {
     public $route;
@@ -47,4 +49,16 @@ abstract class Controller
         $this->meta['desc'] = $desc;
         $this->meta['keywords'] = $keywords;
     }
+
+    public function isAjax() {
+        return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest';
+    }
+
+    public function loadView($view, $vars = [])
+    {
+        extract($vars);
+        require APP . "/views/{$this->prefix}{$this->controller}/{$view}.php";
+        die();
+    }
+
 }

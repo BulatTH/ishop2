@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283b280c-a0b9-4a2c-be1b-28df3ee91c1d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/CartController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Cart/cart_modal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/watches.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/watches.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/megamenu" beforeDir="false" afterPath="$PROJECT_DIR$/public/megamenu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,11 +87,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CartController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/CartController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="503">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+              <folding>
+                <element signature="e#128#148#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart_modal.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Cart/cart_modal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cart.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/Cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -99,8 +129,8 @@
       <file leaf-file-name="watches.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+            <state relative-caret-position="285">
+              <caret line="98" column="19" lean-forward="true" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
               <folding>
                 <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -147,6 +177,8 @@
       <find>item_pl</find>
       <find>item_price</find>
       <find>left</find>
+      <find>con</find>
+      <find>conten</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -187,7 +219,6 @@
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/app/widgets/currency/currency_tpl/currency.php" />
         <option value="$PROJECT_DIR$/app/widgets/currency/Currency.php" />
-        <option value="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" />
         <option value="$PROJECT_DIR$/app/controllers/CurrencyController.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" />
         <option value="$PROJECT_DIR$/app/controllers/AppController.php" />
@@ -204,10 +235,13 @@
         <option value="$PROJECT_DIR$/app/models/Breadcrumbs.php" />
         <option value="$PROJECT_DIR$/app/controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/app/views/Product/view.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/watches.php" />
         <option value="$PROJECT_DIR$/app/views/Main/index.php" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/app/controllers/CartController.php" />
+        <option value="$PROJECT_DIR$/app/views/Cart/cart_modal.php" />
+        <option value="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/watches.php" />
+        <option value="$PROJECT_DIR$/app/models/Cart.php" />
       </list>
     </option>
   </component>
@@ -312,7 +346,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="wa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/watches.php&#10;main.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/js/main.js&#10;db&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Db.php&#10;de&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;inde&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Main/index.php&#10;def&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;Ro&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;style.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/megamenu/css/style.css&#10;Ca&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Cache.php&#10;AppC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/AppController.php&#10;func&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/libs/functions.php&#10;styl&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;mainC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;ini&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/init.php&#10;main&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;defa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;compos&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/composer.json&#10;Rout&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php&#10;route&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;para&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/params.php&#10;rou&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php" />
+    <property name="SearchEverywhereHistoryKey" value="controll&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/base/Controller.php&#10;wa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/watches.php&#10;main.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/js/main.js&#10;db&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Db.php&#10;de&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;inde&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Main/index.php&#10;def&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;Ro&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;style.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/megamenu/css/style.css&#10;Ca&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Cache.php&#10;AppC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/AppController.php&#10;func&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/libs/functions.php&#10;styl&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;mainC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;ini&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/init.php&#10;main&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;defa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;compos&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/composer.json&#10;Rout&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php&#10;route&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;para&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/params.php&#10;rou&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -359,12 +393,12 @@
       <workItem from="1550302081850" duration="127000" />
       <workItem from="1550303344854" duration="85000" />
       <workItem from="1550555922618" duration="19890000" />
-      <workItem from="1550651295748" duration="3294000" />
+      <workItem from="1550651295748" duration="5086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40866000" />
+    <option name="totallyTimeSpent" value="42658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -420,27 +454,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/errors.log">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -529,13 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -719,17 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
-          <folding>
-            <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Breadcrumbs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -761,10 +756,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/WebForMySelf/videokurs/part2/19/ishop2.loc/vendor/ishop/core/base/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Cart/cart_modal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/CartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="503">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="e#128#148#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="98" column="19" lean-forward="true" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+          <folding>
+            <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
         </state>
       </provider>
     </entry>

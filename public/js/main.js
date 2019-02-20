@@ -18,6 +18,22 @@ $("body").on("click", ".add-to-cart-link", function (e) {
     });
 });
 
+$("#cart .modal-body").on("click", ".del-item", function () {
+    let id = $(this).data("id");
+    $.ajax({
+        url: "/cart/delete",
+        type: "get",
+        data: {id: id},
+        success: function (res) {
+            showCard(res);
+        },
+        error: function () {
+            alert("Ошибка! Попробуйте позже.");
+        }
+    });
+
+});
+
 function showCard(cart) {
     if ($.trim(cart) === "<h3> Корзина пуста </h3>") {
         $("#cart .modal-footer a, #cart .modal-footer .btn-danger").css("display", "none");
@@ -29,6 +45,24 @@ function showCard(cart) {
 
     $("#cart").modal();
 
+    if ( $(".cart-sum").text() ) {
+        $(".simpleCart_total").html( $("#cart .cart-sum").text() );
+    } else {
+        $(".simpleCart_total").text("Empty Cart");
+    }
+}
+
+function getCart(){
+    $.ajax({
+        url: "/cart/show",
+        type: "get",
+        success: function (res) {
+            showCard(res);
+        },
+        error: function () {
+            alert("Ошибка! Попробуйте позже.");
+        }
+    });
 }
 /* --- cart ---  */
 

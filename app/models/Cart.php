@@ -49,4 +49,13 @@ class Cart extends AppModel
             : $qty * ($price * $_SESSION['cart.currency']['value']);
     }
 
+    public function deleteItem($id)
+    {
+        $qtyMinus = $_SESSION['cart'][$id]['qty'];
+        $sumMinus = $_SESSION['cart'][$id]['qty'] * $_SESSION['cart'][$id]['price'];
+        $_SESSION["cart.qty"] -= $qtyMinus;
+        $_SESSION["cart.sum"] -= $sumMinus;
+        unset($_SESSION['cart'][$id]);
+    }
+
 }

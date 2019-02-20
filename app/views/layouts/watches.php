@@ -233,6 +233,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <script src="js/main.js"></script>
 
+<div class="my-2" style="padding: 0 30px">
+    <h3 class="text-center"> Debugging </h3>
+    <?php
+    use \RedBeanPHP\R as R;
+    $logs = R::getDatabaseAdapter()
+        ->getDatabase()
+        ->getLogger();
+
+    debug( $logs->grep( 'SELECT' ) );
+    debug( $logs->grep( 'INSERT' ) );
+    debug( $logs->grep( 'UPDATE' ) );
+    debug( $logs->grep( 'DELETE' ) );
+    ?>
+</div>
 
 </body>
 </html>

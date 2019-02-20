@@ -22,9 +22,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-
 </head>
 <body>
+
 <!--top-header-->
 <div class="top-header">
     <div class="container">
@@ -63,6 +63,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 </div>
 <!--top-header-->
+
 <!--start-logo-->
 <div class="logo">
     <a href="<?= PATH ?>"><h1>Luxury Watches</h1></a>
@@ -95,7 +96,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--bottom-header-->
 
 <div class="content">
-    <?php debug( $_SESSION ); ?>
+    <?php //debug( $_SESSION ); // session_destroy(); ?>
     <?= $content ?>
 </div>
 
@@ -164,6 +165,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <!--footer-end-->
 
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+                <a href="cart/view" type="button" class="btn btn-primary">Оформить заказ</a>
+                <button type="button" class="btn btn-danger" onclick="clearCart()">Очистить корзину</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php $curr = \ishop\App::$app->getProperty("currency") ?>
 
 <script>
@@ -174,6 +194,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </script>
 
 <script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 <script src="js/jquery.easydropdown.js"></script>
 
 <!--Slider-Starts-Here-->

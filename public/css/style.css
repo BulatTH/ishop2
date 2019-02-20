@@ -3070,3 +3070,7 @@ ul.tag-men {
 .product-one > .product-left {
 	margin-bottom: 20px;
 }
+
+#cart table img {
+	height: 150px;
+}

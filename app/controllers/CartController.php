@@ -18,8 +18,10 @@ class CartController extends AppController
     {
         $id = (int)$_GET['id'] ?? null;
         $qty = (int)$_GET['qty'] ?? null;
-        $mod_id = (int)$_GET['mod'] ?? null;
+        $mod_id = (isset($_GET['mod'])) ? (int)$_GET['mod'] : null;
+
         $mod = null;
+
         if ($id) {
             $product = R::findOne("product", "id = ?", [$id]);
 
@@ -32,8 +34,10 @@ class CartController extends AppController
                 ]);
             }
         }
+
         $cart = new Cart();
         $cart->addToCart($product, $qty, $mod);
+
         if ($this->isAjax()) {
             $this->loadView("cart_modal");
         }

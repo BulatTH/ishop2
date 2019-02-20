@@ -58,9 +58,9 @@
                             </div>
 
                             <!-- Good price -->
-                                <h5 class="item_price">
+                                <h5 class="item_price" id="base-price" data-base="<?= $product->price * $curr['value'] ?>">
                                     <?= $curr['symbol_left'] ?>
-                                        <?= $product->price * $curr['value'] ?></span>
+                                        <span> <?= $product->price * $curr['value'] ?> </span>
                                     <?= $curr['symbol_right'] ?>
                                     <?php if ($product->old_price): ?>
                                         <small>
@@ -80,20 +80,24 @@
 
                             <div class="available">
                                 <ul>
-                                    <li>Color
+                                    <?php if ($modifications): ?>
+                                    <li>
+                                        Color
                                         <select>
-                                            <option>Silver</option>
-                                            <option>Black</option>
-                                            <option>Dark Black</option>
-                                            <option>Red</option>
-                                        </select></li>
-                                    <li class="size-in">Size<select>
-                                            <option>Large</option>
-                                            <option>Medium</option>
-                                            <option>small</option>
-                                            <option>Large</option>
-                                            <option>small</option>
-                                        </select></li>
+                                            <option>Выбрать цвет</option>
+
+                                                <?php foreach( $modifications as $item ): ?>
+                                                    <option data-title="<?= $item['title'] ?>"
+                                                            data-price="<?= $item['price'] * $curr['value'] ?>"
+                                                            value="<?= $item['id'] ?>">
+                                                        <?= $item['title'] ?>
+                                                    </option>
+                                                <?php endforeach; ?>
+
+                                        </select>
+                                    </li>
+                                    <?php endif ?>
+
                                     <div class="clearfix"> </div>
                                 </ul>
                             </div>
@@ -167,7 +171,7 @@
                                             <a data-id="<?= $item['id'] ?>" class="add-to-cart-link" href="cart/add?id=<?= $item['id'] ?>">
                                                 <i></i>
                                             </a>
-                                            <span class=" item_price">
+                                            <span class=" item_price" >
                                                 <?= $curr['symbol_left'] ?>
                                                     <?= $item['price'] * $curr['value'] ?></span>
                                                 <?= $curr['symbol_right'] ?>

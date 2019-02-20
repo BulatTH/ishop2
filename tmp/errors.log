@@ -300,3 +300,7 @@
 ---------------------
 [2019-02-20 09:03:44] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
 ---------------------
+[2019-02-20 09:20:07] Текст ошибки: syntax error, unexpected '&' | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Breadcrumbs.php | Строка: 30
+---------------------
+[2019-02-20 09:26:52] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------

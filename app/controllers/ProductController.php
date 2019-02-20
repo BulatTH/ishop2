@@ -9,6 +9,7 @@
 namespace app\controllers;
 
 
+use app\models\Breadcrumbs;
 use app\models\Product;
 use RedBeanPHP\R;
 
@@ -23,6 +24,8 @@ class ProductController extends AppController
         }
 
         // Breadcrumbs
+        $breadcrumbs = Breadcrumbs::getBreadcrumbs($product->category_id, $product->title);
+
 
         // Связанные товары
         $related = R::getAll("SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$product->id]);
@@ -49,7 +52,8 @@ class ProductController extends AppController
             'product',
             'related',
             'gallery',
-            'recentlyViewed'
+            'recentlyViewed',
+            'breadcrumbs'
         ));
     }
 }

@@ -29,6 +29,7 @@ abstract class Model
         foreach ($this->attributes as $attrName => $v) {
             if ( isset($data[$attrName]) ) {
                 $this->attributes[$attrName] = $data[$attrName];
+
             }
         }
     }

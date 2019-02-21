@@ -64,6 +64,20 @@ function getCart(){
         }
     });
 }
+
+function clearCart() {
+    $.ajax({
+        url: "/cart/clear",
+        type: "get",
+        success: function (res) {
+            showCard(res);
+        },
+        error: function () {
+            alert("Ошибка! Попробуйте позже.");
+        }
+    });
+}
+
 /* --- cart ---  */
 
 $("#currency").change(function () {

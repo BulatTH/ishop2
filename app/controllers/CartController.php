@@ -63,4 +63,17 @@ class CartController extends AppController
         redirect();
     }
 
+    public function clearAction()
+    {
+        unset($_SESSION['cart']);
+        unset($_SESSION['cart.qty']);
+        unset($_SESSION['cart.sum']);
+        unset($_SESSION['cart.currency']);
+
+        if ($this->isAjax()) {
+            $this->loadView("cart_modal");
+        }
+        redirect();
+    }
+
 }

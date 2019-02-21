@@ -10,6 +10,7 @@ namespace ishop\base;
 
 
 use ishop\Db;
+use RedBeanPHP\R;
 use Valitron\Validator;
 
 abstract class Model
@@ -30,6 +31,15 @@ abstract class Model
                 $this->attributes[$attrName] = $data[$attrName];
             }
         }
+    }
+
+    public function save($table)
+    {
+        $tbl = R::dispense($table);
+        foreach ($this->attributes as $name => $v) {
+            $tbl->$name = $v;
+        }
+        return R::store($tbl);
     }
 
     public function validate($data)
@@ -58,5 +68,7 @@ abstract class Model
         $errors .= "</ul>";
         $_SESSION["error"] = $errors;
     }
+
+
 
 }

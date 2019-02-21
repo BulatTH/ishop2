@@ -19,13 +19,21 @@ class UserController extends AppController
             $user = new User();
             $data = $_POST;
             $user->load($data);
-            if (!$user->validate($data)) {
+            if (!$user->validate($data) || !$user->checkUnique()) {
                 $user->getErrors();
-                redirect();
+                // redirect();
             } else {
-                $_SESSION["success"] = "Ok";
-                redirect();
+                $user->attributes["password"] = password_hash($user->attributes["password"], PASSWORD_DEFAULT);
+
+                if ($user->save("user")) {
+                    $_SESSION["success"] = "Вы успешно зарегистрированы";
+                    // redirect();
+                } else {
+                    $_SESSION["error"] = "Ошибка при сохранении";
+                }
             }
+
+            redirect();
         }
 
         $this->setMeta("Signup");

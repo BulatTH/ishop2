@@ -442,3 +442,5 @@
 ---------------------
 [2019-02-21 12:13:12] Текст ошибки: Fail to load language file '/Applications/XAMPP/xamppfiles/docs/ishop2.loc/publicvalidator/lang/ru.php' | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/vlucas/valitron/src/Valitron/Validator.php | Строка: 113
 ---------------------
+[2019-02-21 12:38:45] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'b@radic.ru' for key 'email' | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 188
+---------------------

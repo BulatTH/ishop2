@@ -440,3 +440,5 @@
 ---------------------
 [2019-02-21 11:19:48] Текст ошибки: Не найден вид /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/User/signup.php | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/base/View.php | Строка: 49
 ---------------------
+[2019-02-21 12:13:12] Текст ошибки: Fail to load language file '/Applications/XAMPP/xamppfiles/docs/ishop2.loc/publicvalidator/lang/ru.php' | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/vlucas/valitron/src/Valitron/Validator.php | Строка: 113
+---------------------

@@ -2,18 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283b280c-a0b9-4a2c-be1b-28df3ee91c1d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/User/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/User/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/ar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/az.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/bg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/el.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/en.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/fi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/ko.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/lt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/lv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/nb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/nn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/no.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/pl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/pt-br.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/ro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/ru.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/sk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/sv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/th.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/tr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/uk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/vi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/zh-cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/validator/lang/zh-tw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ishop2.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ishop2.loc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Category/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Category/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/watches.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/watches.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/megamenu" beforeDir="false" afterPath="$PROJECT_DIR$/public/megamenu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +93,8 @@
       <file leaf-file-name="watches.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+            <state relative-caret-position="218">
+              <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
               <folding>
                 <element signature="e#242#245#0#PHP" />
                 <element signature="e#1265#1270#0#PHP" />
@@ -75,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="450">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -87,17 +118,20 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="598">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Model.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+            <state relative-caret-position="407">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+              <folding>
+                <element signature="e#123#136#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>banne</find>
       <find>script</find>
       <find>sc</find>
       <find>selec</find>
@@ -152,6 +185,7 @@
       <find>perpage</find>
       <find>lang</find>
       <find>data-lo</find>
+      <find>cont</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -172,8 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/roots.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/App.php" />
         <option value="$PROJECT_DIR$/app/controllers/PageController.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/base/View.php" />
@@ -217,12 +249,14 @@
         <option value="$PROJECT_DIR$/vendor/ishop/core/libs/Pagination.php" />
         <option value="$PROJECT_DIR$/app/controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/app/views/Category/view.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/watches.php" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/app/views/User/signup.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
-        <option value="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/watches.php" />
+        <option value="$PROJECT_DIR$/vendor/vlucas/valitron/lang/ru.php" />
+        <option value="$PROJECT_DIR$/public/validator/lang/ru.php" />
+        <option value="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" />
       </list>
     </option>
   </component>
@@ -240,6 +274,7 @@
       <path value="$PROJECT_DIR$/vendor/ishop/core" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/gabordemooij/redbean" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/valitron" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -292,7 +327,38 @@
             <path>
               <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="vlucas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="vlucas" type="462c0819:PsiDirectoryNode" />
+              <item name="valitron" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,11 +379,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/validator" />
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/public/fonts" />
       <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/app/widgets/menu" />
-      <recent name="$PROJECT_DIR$/public/menu/menu_tpl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/vendor/ishop/core" />
@@ -352,12 +418,12 @@
       <workItem from="1550303344854" duration="85000" />
       <workItem from="1550555922618" duration="19890000" />
       <workItem from="1550651295748" duration="8969000" />
-      <workItem from="1550724479217" duration="9772000" />
+      <workItem from="1550724479217" duration="11310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56313000" />
+    <option name="totallyTimeSpent" value="57851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -413,17 +479,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/cache/098f6bcd4621d373cade4e832627b4f6.txt" />
-    <entry file="das://22e9767e-c30f-4413-a9e6-d514d2dcf908/schema/ishop2/table/category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/megamenu/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -863,20 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-          <folding>
-            <element signature="e#242#245#0#PHP" />
-            <element signature="e#1265#1270#0#PHP" />
-            <element signature="e#1393#1807#0#HTML" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/User/signup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -891,24 +932,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Model.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+        <state relative-caret-position="450">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
+          <folding>
+            <element signature="e#242#245#0#PHP" />
+            <element signature="e#1265#1270#0#PHP" />
+            <element signature="e#1393#1807#0#HTML" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="598">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/vlucas/valitron/lang/ru.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="391">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/validator/lang/ar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/validator/lang/ru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="e#123#136#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

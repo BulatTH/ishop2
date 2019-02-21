@@ -886,7 +886,7 @@ a.mask {
 /*--footer-end--*/
 /*--product-page-starts--*/
 .prdt{
-	padding:6em 0px;
+	padding:3em 0px;
 }
 .w_sidebar{
 	border: 1px solid #EBEBEB;
@@ -1895,7 +1895,7 @@ h3.ghj {
     font-size: 2.1em;
 }
 .contact,.pages,.account,.register,.ckeckout,.prdt {
-    padding: 5em 0px;
+    padding: 3em 0px;
 }
 .header-bottom {
     padding: 15px 0px;

@@ -2,7 +2,9 @@
 use ishop\Router;
 
 // user routes
-Router::add("^product/(?P<alias>[a-z0-9-]+)/?$", ['controller' => "Product", "action"=>"view"]);
+Router::add("^product/(?P<alias>[a-z0-9-]+)/?$", ['controller' => "Product", "action"=>"view"]); // Product alias
+
+Router::add("^category/(?P<alias>[a-z0-9-]+)/?$", ['controller' => "Category", "action"=>"view"]); // Category alias
 
 // default routes
 Router::add("^admin$", ['controller' => "Main", "action"=>"index", "prefix"=>"admin"]); // adminka

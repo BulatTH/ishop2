@@ -430,3 +430,9 @@
 ---------------------
 [2019-02-21 06:56:45] Текст ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 45
 ---------------------
+[2019-02-21 07:45:30] Текст ошибки: Не найден вид /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Category/view.php | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/base/View.php | Строка: 49
+---------------------
+[2019-02-21 07:50:35] Текст ошибки: Page not found | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CategoryController.php | Строка: 23
+---------------------
+[2019-02-21 07:58:56] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.products' doesn't exist | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 188
+---------------------

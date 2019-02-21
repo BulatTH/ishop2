@@ -426,3 +426,7 @@
 ---------------------
 [2019-02-21 05:48:47] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
 ---------------------
+[2019-02-21 06:47:13] Текст ошибки: Контроллер {app\controllers\SearchController} не найден | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 48
+---------------------
+[2019-02-21 06:56:45] Текст ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 45
+---------------------

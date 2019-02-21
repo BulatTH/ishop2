@@ -22,4 +22,13 @@ abstract class Model
         Db::instance();
     }
 
+    public function load($data)
+    {
+        foreach ($this->attributes as $attrName => $v) {
+            if ( isset($data[$attrName]) ) {
+                $this->attributes[$attrName] = $data[$attrName];
+            }
+        }
+    }
+    
 }

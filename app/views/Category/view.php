@@ -41,7 +41,7 @@
                                 </div>
                             </div>
                         <?php endforeach; ?>
-                        
+
                         <div class="clearfix"></div>
 
                         <div class="text-center">

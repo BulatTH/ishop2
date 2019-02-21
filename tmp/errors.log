@@ -436,3 +436,7 @@
 ---------------------
 [2019-02-21 07:58:56] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.products' doesn't exist | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 188
 ---------------------
+[2019-02-21 11:18:56] Текст ошибки: Контроллер {app\controllers\UserController} не найден | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 48
+---------------------
+[2019-02-21 11:19:48] Текст ошибки: Не найден вид /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/User/signup.php | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/base/View.php | Строка: 49
+---------------------

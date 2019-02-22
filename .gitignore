@@ -1,1 +1,4 @@
-/vendor/gabordemooij
+vendor/*
+!vendor/autoload.php
+!vendor/ishop
+!vendor/composer

@@ -444,3 +444,5 @@
 ---------------------
 [2019-02-21 12:38:45] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'b@radic.ru' for key 'email' | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 188
 ---------------------
+[2019-02-22 06:54:07] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------

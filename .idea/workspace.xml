@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283b280c-a0b9-4a2c-be1b-28df3ee91c1d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/Mail/mail_order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/params.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/megamenu" beforeDir="false" afterPath="$PROJECT_DIR$/public/megamenu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +69,7 @@
       <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
+            <state relative-caret-position="23">
               <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
             </state>
           </provider>
@@ -71,8 +78,8 @@
       <file leaf-file-name="CartController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/CartController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
+            <state>
+              <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -80,8 +87,8 @@
       <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="471">
+              <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
               <folding>
                 <element signature="e#123#137#0#PHP" expanded="true" />
               </folding>
@@ -89,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="params.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/params.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="207">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -163,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/models/AppModel.php" />
         <option value="$PROJECT_DIR$/config/config_db.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/traits/TSingleton.php" />
         <option value="$PROJECT_DIR$/config/init.php" />
@@ -212,8 +217,10 @@
         <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/controllers/CartController.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/watches.php" />
-        <option value="$PROJECT_DIR$/app/models/Order.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/views/Main/mail_order.php" />
+        <option value="$PROJECT_DIR$/app/models/Order.php" />
+        <option value="$PROJECT_DIR$/config/params.php" />
       </list>
     </option>
   </component>
@@ -283,7 +290,7 @@
               <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Cart" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
@@ -297,7 +304,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="use&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/User.php&#10;styl&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;sty&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;style&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;wat&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/watches.php&#10;view&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Category/view.php&#10;ыенду&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;rout&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;func&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/libs/functions.php&#10;curre&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php&#10;controll&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/base/Controller.php&#10;wa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/watches.php&#10;main.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/js/main.js&#10;db&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Db.php&#10;de&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;inde&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Main/index.php&#10;def&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;Ro&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;style.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/megamenu/css/style.css&#10;Ca&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Cache.php&#10;AppC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/AppController.php&#10;mainC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;ini&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/init.php&#10;main&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;defa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;compos&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/composer.json&#10;Rout&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php&#10;route&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;para&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/params.php&#10;rou&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php" />
+    <property name="SearchEverywhereHistoryKey" value="para&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/params.php&#10;use&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/User.php&#10;styl&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;sty&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;style&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;wat&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/watches.php&#10;view&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Category/view.php&#10;ыенду&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;rout&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;func&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/libs/functions.php&#10;curre&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php&#10;controll&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/base/Controller.php&#10;wa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/watches.php&#10;main.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/js/main.js&#10;db&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Db.php&#10;de&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;inde&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Main/index.php&#10;def&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;Ro&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;style.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/megamenu/css/style.css&#10;Ca&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Cache.php&#10;AppC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/AppController.php&#10;mainC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;ini&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/init.php&#10;main&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;defa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;compos&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/composer.json&#10;Rout&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php&#10;route&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;rou&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -307,16 +314,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/Mail" />
+      <recent name="$PROJECT_DIR$/vendor/ishop/core" />
+      <recent name="$PROJECT_DIR$/vendor/ishop" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/public/validator" />
       <recent name="$PROJECT_DIR$/public/fonts" />
       <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/app/widgets/menu" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/vendor/ishop/core" />
-      <recent name="$PROJECT_DIR$/vendor/ishop" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,12 +356,12 @@
       <workItem from="1550555922618" duration="19890000" />
       <workItem from="1550651295748" duration="8969000" />
       <workItem from="1550724479217" duration="17145000" />
-      <workItem from="1550814879217" duration="1867000" />
+      <workItem from="1550814879217" duration="3157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65553000" />
+    <option name="totallyTimeSpent" value="66843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -383,21 +391,22 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17421874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" weight="0.1625" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.328877" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -409,19 +418,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Cart/cart_modal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -631,7 +627,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../report-old/mainFunctions.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/WebForMySelf/videokurs/part2/32/ishop2.loc/app/views/Cart/view.php" />
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
@@ -657,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/WebForMySelf/videokurs/part2/33/ishop2.loc/app/models/Order.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -681,20 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/CartController.php">
+    <entry file="file://$USER_HOME$/Desktop/WebForMySelf/videokurs/part2/35/ishop2.loc/app/views/mail/mail_order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding>
-            <element signature="e#123#137#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="351">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -702,6 +687,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Mail/mail_order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
+          <folding>
+            <element signature="e#123#137#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>

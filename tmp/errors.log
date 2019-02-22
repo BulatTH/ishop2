@@ -446,3 +446,289 @@
 ---------------------
 [2019-02-22 06:54:07] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
 ---------------------
+[2019-02-22 12:22:07] Текст ошибки: Failed to authenticate on SMTP server with username "bobmedley@yandex.ru" using 3 possible authenticators. Authenticator LOGIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Invalid user or password!
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('VnF2cWFWWXJuQmQ...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php(36): Swift_Transport_EsmtpTransport->executeCommand('VnF2cWFWWXJuQmQ...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_LoginAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bobmedley@yande...', 'VqvqaVYrnBd9VHA...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(6, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator PLAIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Invalid user or password!
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php(35): Swift_Transport_EsmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_PlainAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bobmedley@yande...', 'VqvqaVYrnBd9VHA...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(6, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator XOAUTH2 returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Invalid user or password!
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(45): Swift_Transport_EsmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'bobmedley@yande...', 'VqvqaVYrnBd9VHA...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(6, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php | Строка: 191
+---------------------
+[2019-02-22 12:26:07] Текст ошибки: Failed to authenticate on SMTP server with username "bob2017marley@yandex.ru" using 3 possible authenticators. Authenticator LOGIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Your message looks like spam. You need to use web for sending or prove you are not a robot using the following link http://ya.cc/6lIV
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('dW5wY2p2YnpqcW5...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php(36): Swift_Transport_EsmtpTransport->executeCommand('dW5wY2p2YnpqcW5...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_LoginAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(7, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator PLAIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Your message looks like spam. You need to use web for sending or prove you are not a robot using the following link http://ya.cc/6lIV
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php(35): Swift_Transport_EsmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_PlainAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(7, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator XOAUTH2 returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Invalid user or password!
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(45): Swift_Transport_EsmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(7, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php | Строка: 191
+---------------------
+[2019-02-22 12:26:25] Текст ошибки: Failed to authenticate on SMTP server with username "bob2017marley@yandex.ru" using 3 possible authenticators. Authenticator LOGIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Your message looks like spam. You need to use web for sending or prove you are not a robot using the following link http://ya.cc/6lIV
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('dW5wY2p2YnpqcW5...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php(36): Swift_Transport_EsmtpTransport->executeCommand('dW5wY2p2YnpqcW5...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_LoginAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(8, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator PLAIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Your message looks like spam. You need to use web for sending or prove you are not a robot using the following link http://ya.cc/6lIV
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php(35): Swift_Transport_EsmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_PlainAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(8, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator XOAUTH2 returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Invalid user or password!
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(45): Swift_Transport_EsmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(8, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php | Строка: 191
+---------------------
+[2019-02-22 12:27:11] Текст ошибки: Address in mailbox given [bob2017marley] does not comply with RFC 2822, 3.6.2. | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php | Строка: 355
+---------------------
+[2019-02-22 12:27:44] Текст ошибки: Address in mailbox given [bob2017marley] does not comply with RFC 2822, 3.6.2. | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php | Строка: 355
+---------------------
+[2019-02-22 12:28:03] Текст ошибки: Failed to authenticate on SMTP server with username "bob2017marley@yandex.ru" using 3 possible authenticators. Authenticator LOGIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Your message looks like spam. You need to use web for sending or prove you are not a robot using the following link http://ya.cc/6lIV
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('dW5wY2p2YnpqcW5...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php(36): Swift_Transport_EsmtpTransport->executeCommand('dW5wY2p2YnpqcW5...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_LoginAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(11, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator PLAIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Your message looks like spam. You need to use web for sending or prove you are not a robot using the following link http://ya.cc/6lIV
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php(35): Swift_Transport_EsmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_PlainAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(11, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator XOAUTH2 returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Invalid user or password!
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(45): Swift_Transport_EsmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(11, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php | Строка: 191
+---------------------
+[2019-02-22 12:28:14] Текст ошибки: Failed to authenticate on SMTP server with username "bob2017marley@yandex.ru" using 3 possible authenticators. Authenticator LOGIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Your message looks like spam. You need to use web for sending or prove you are not a robot using the following link http://ya.cc/6lIV
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('dW5wY2p2YnpqcW5...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php(36): Swift_Transport_EsmtpTransport->executeCommand('dW5wY2p2YnpqcW5...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_LoginAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(12, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator PLAIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Your message looks like spam. You need to use web for sending or prove you are not a robot using the following link http://ya.cc/6lIV
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php(35): Swift_Transport_EsmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_PlainAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(12, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator XOAUTH2 returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Invalid user or password!
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(45): Swift_Transport_EsmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(12, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php | Строка: 191
+---------------------
+[2019-02-22 12:28:38] Текст ошибки: Failed to authenticate on SMTP server with username "bob2017marley@yandex.ru" using 3 possible authenticators. Authenticator LOGIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Your message looks like spam. You need to use web for sending or prove you are not a robot using the following link http://ya.cc/6lIV
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('dW5wY2p2YnpqcW5...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php(36): Swift_Transport_EsmtpTransport->executeCommand('dW5wY2p2YnpqcW5...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_LoginAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(13, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator PLAIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Your message looks like spam. You need to use web for sending or prove you are not a robot using the following link http://ya.cc/6lIV
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php(35): Swift_Transport_EsmtpTransport->executeCommand('AUTH PLAIN Ym9i...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_PlainAuthenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(13, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. Authenticator XOAUTH2 returned Swift_TransportException: Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: Invalid user or password!
+" in /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535 5.7.8 Error...', Array)
+#1 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array, Array, false, NULL)
+#2 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(45): Swift_Transport_EsmtpTransport->executeCommand('AUTH XOAUTH2 dX...', Array)
+#3 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'bob2017marley@y...', 'unpcjvbzjqnkniw...')
+#4 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(65): Swift_Transport_AbstractSmtpTransport->start()
+#7 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/Order.php(71): Swift_Mailer->send(Object(Swift_Message))
+#8 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CartController.php(115): app\models\Order::mailOrder(13, '1@user.ru')
+#9 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php(42): app\controllers\CartController->checkoutAction()
+#10 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/App.php(23): ishop\Router::dispatch('cart/checkout')
+#11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
+#12 {main}. | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php | Строка: 191
+---------------------

@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283b280c-a0b9-4a2c-be1b-28df3ee91c1d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/models/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Cart/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CartController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/User/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/User/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/watches.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/watches.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/megamenu" beforeDir="false" afterPath="$PROJECT_DIR$/public/megamenu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,49 +59,66 @@
       <file leaf-file-name="watches.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="251" column="39" lean-forward="true" selection-start-line="251" selection-start-column="39" selection-end-line="251" selection-end-column="39" />
+            <state relative-caret-position="-1794">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
-                <element signature="e#242#245#0#PHP" />
+                <element signature="e#890#893#0#PHP" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#1265#1270#0#PHP" />
                 <element signature="e#1393#1807#0#HTML" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#10;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="35" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="35" />
+              <folding>
+                <element signature="e#648#690#0#PHP" />
+                <element signature="e#696#739#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/CartController.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
-              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+              <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
               <folding>
-                <element signature="e#199#642#0#PHP" />
+                <element signature="e#217#981#0#PHP" />
+                <element signature="e#432#793#0#PHP" />
+                <element signature="e#561#783#0#PHP" />
+                <element signature="e#599#768#0#PHP" />
+                <element signature="e#668#767#0#PHP" />
+                <element signature="e#880#955#0#PHP" />
+                <element signature="e#987#1066#0#PHP" />
+                <element signature="e#1072#1399#0#PHP" />
+                <element signature="e#1172#1288#0#PHP" />
+                <element signature="e#1298#1373#0#PHP" />
+                <element signature="e#1603#1678#0#PHP" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/User/login.php">
+      <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="e#611#650#0#PHP" />
-                <element signature="e#1419#1468#0#PHP" />
-              </folding>
+            <state relative-caret-position="460">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -112,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>selec</find>
       <find>$_GET['curr']</find>
       <find>lux</find>
       <find>javas</find>
@@ -142,6 +163,7 @@
       <find>cont</find>
       <find>form-group</find>
       <find>login</find>
+      <find>#cart</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -165,8 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/PageController.php" />
-        <option value="$PROJECT_DIR$/vendor/ishop/core/base/View.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/models/AppModel.php" />
         <option value="$PROJECT_DIR$/config/config_db.php" />
@@ -191,7 +211,6 @@
         <option value="$PROJECT_DIR$/app/views/Product/view.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" />
         <option value="$PROJECT_DIR$/app/views/Cart/cart_modal.php" />
-        <option value="$PROJECT_DIR$/app/controllers/CartController.php" />
         <option value="$PROJECT_DIR$/app/controllers/CurrencyController.php" />
         <option value="$PROJECT_DIR$/app/models/Cart.php" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
@@ -209,13 +228,16 @@
         <option value="$PROJECT_DIR$/app/views/Category/view.php" />
         <option value="$PROJECT_DIR$/vendor/vlucas/valitron/lang/ru.php" />
         <option value="$PROJECT_DIR$/public/validator/lang/ru.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/watches.php" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/app/views/User/signup.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" />
         <option value="$PROJECT_DIR$/app/views/User/login.php" />
-        <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/watches.php" />
+        <option value="$PROJECT_DIR$/app/views/Cart/view.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/models/Order.php" />
+        <option value="$PROJECT_DIR$/app/controllers/CartController.php" />
       </list>
     </option>
   </component>
@@ -281,43 +303,7 @@
               <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="validator.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="vlucas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ishop2.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop2.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="vlucas" type="462c0819:PsiDirectoryNode" />
-              <item name="valitron" type="462c0819:PsiDirectoryNode" />
+              <item name="Cart" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +313,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="sty&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;style&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;wat&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/watches.php&#10;view&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Category/view.php&#10;ыенду&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;rout&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;func&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/libs/functions.php&#10;curre&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php&#10;controll&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/base/Controller.php&#10;wa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/watches.php&#10;main.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/js/main.js&#10;db&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Db.php&#10;de&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;inde&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Main/index.php&#10;def&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;Ro&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;style.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/megamenu/css/style.css&#10;Ca&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Cache.php&#10;AppC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/AppController.php&#10;styl&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;mainC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;ini&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/init.php&#10;main&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;defa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;compos&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/composer.json&#10;Rout&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php&#10;route&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;para&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/params.php&#10;rou&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php" />
+    <property name="SearchEverywhereHistoryKey" value="use&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/models/User.php&#10;styl&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;sty&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;style&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;wat&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/watches.php&#10;view&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Category/view.php&#10;ыенду&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/css/style.css&#10;rout&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;func&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/libs/functions.php&#10;curre&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/CurrencyController.php&#10;controll&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/base/Controller.php&#10;wa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/watches.php&#10;main.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/js/main.js&#10;db&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Db.php&#10;de&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;inde&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/Main/index.php&#10;def&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;Ro&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;style.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/megamenu/css/style.css&#10;Ca&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Cache.php&#10;AppC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/AppController.php&#10;mainC&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;ini&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/init.php&#10;main&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/controllers/MainController.php&#10;defa&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/app/views/layouts/default.php&#10;compos&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/composer.json&#10;Rout&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php&#10;route&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/routes.php&#10;para&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/config/params.php&#10;rou&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -377,12 +363,12 @@
       <workItem from="1550303344854" duration="85000" />
       <workItem from="1550555922618" duration="19890000" />
       <workItem from="1550651295748" duration="8969000" />
-      <workItem from="1550724479217" duration="14217000" />
+      <workItem from="1550724479217" duration="16235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60758000" />
+    <option name="totallyTimeSpent" value="62776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -438,34 +424,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/WebForMySelf/web Layout/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="28" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ishop/core/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Breadcrumbs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -702,16 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-          <folding>
-            <element signature="e#128#148#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SearchController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -878,27 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="1434" selection-start-line="1434" selection-end-line="1434" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="251" column="39" lean-forward="true" selection-start-line="251" selection-start-column="39" selection-end-line="251" selection-end-column="39" />
-          <folding>
-            <element signature="e#242#245#0#PHP" />
-            <element signature="e#1265#1270#0#PHP" />
-            <element signature="e#1393#1807#0#HTML" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/ishop/core/base/Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -933,23 +860,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+    <entry file="file://$PROJECT_DIR$/../report-old/mainFunctions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state>
           <folding>
-            <element signature="e#611#650#0#PHP" />
-            <element signature="e#1419#1468#0#PHP" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1794">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#890#893#0#PHP" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#1265#1270#0#PHP" />
+            <element signature="e#1393#1807#0#HTML" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#10;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/WebForMySelf/videokurs/part2/32/ishop2.loc/app/views/Cart/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="101" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="3074" column="17" lean-forward="true" selection-start-line="3074" selection-start-column="17" selection-end-line="3074" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        <state relative-caret-position="388">
+          <caret line="35" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="35" />
           <folding>
-            <element signature="e#199#642#0#PHP" />
+            <element signature="e#648#690#0#PHP" />
+            <element signature="e#696#739#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Cart/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="95" column="82" lean-forward="true" selection-start-line="95" selection-start-column="82" selection-end-line="95" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+          <folding>
+            <element signature="e#217#981#0#PHP" />
+            <element signature="e#432#793#0#PHP" />
+            <element signature="e#561#783#0#PHP" />
+            <element signature="e#599#768#0#PHP" />
+            <element signature="e#668#767#0#PHP" />
+            <element signature="e#880#955#0#PHP" />
+            <element signature="e#987#1066#0#PHP" />
+            <element signature="e#1072#1399#0#PHP" />
+            <element signature="e#1172#1288#0#PHP" />
+            <element signature="e#1298#1373#0#PHP" />
+            <element signature="e#1603#1678#0#PHP" />
           </folding>
         </state>
       </provider>

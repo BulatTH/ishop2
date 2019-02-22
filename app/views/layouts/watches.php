@@ -8,9 +8,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
     <base href="/">
-    <?= $this->getMeta(); ?>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <!--    Megamenu styles-->
     <link href="megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="megamenu/css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -18,10 +17,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <!--//theme-style-->
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
+    <?= $this->getMeta(); ?>
 </head>
 <body>
 

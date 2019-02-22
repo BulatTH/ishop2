@@ -86,4 +86,16 @@ class User extends AppModel
         return false;
     }
 
+    public static function checkAuth()
+    {
+        return isset($_SESSION["user"]);
+    }
+
+    public static function isAdmin()
+    {
+        return ( isset($_SESSION["user"]) && strtolower($_SESSION['user']['role']) === "admin" );
+    }
+
+
+    
 }

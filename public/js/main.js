@@ -1,3 +1,42 @@
+/* --- Filter --- */
+$("body").on("change", ".w_sidebar input", function () {
+    let checked = $('.w_sidebar input:checked'),
+        data = '';
+    checked.each(function () {
+       data += this.value + ",";
+    });
+    if (data) {
+        $.ajax({
+            url: location.href,
+            type: "get",
+            data: {filter: data},
+            beforeSend: function (){
+                $(".preloader").fadeIn(300, function () {
+                   $(".product-one").hide();
+                });
+            },
+            success: function (res) {
+                $(".preloader").delay(500).fadeOut("slow", function () {
+                    $(".product-one").html(res).fadeIn();
+
+                    var url = location.search.replace(/filter(.+?)(&|$)/g, ''); //$2
+                    var newURL = location.pathname + url + (location.search ? "&" : "?") + "filter=" + data;
+                    newURL = newURL.replace('&&', '&');
+                    newURL = newURL.replace('?&', '?');
+                    history.pushState({}, '', newURL);
+
+                });
+            },
+            error: function () {
+                alert("Ошибка! Попробуйте позже.");
+            }
+        });
+    } else {
+        window.location = location.pathname;
+    }
+
+});
+
 /* --- Typeahead --- */
 var products = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.whitespace,
@@ -24,7 +63,6 @@ $('#typeahead').bind('typeahead:select', function(ev, suggestion) {
     // console.log(suggestion);
     window.location = path + '/search/?s=' + encodeURIComponent(suggestion.title);
 });
-/* --- Typeahead --- */
 
 
 /* --- cart ---  */

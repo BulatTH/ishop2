@@ -732,3 +732,9 @@ Stack trace:
 #11 /Applications/XAMPP/xamppfiles/docs/ishop2.loc/public/index.php(7): ishop\App->__construct()
 #12 {main}. | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php | Строка: 191
 ---------------------
+[2019-02-23 13:39:30] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-23 15:35:23] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
+[2019-02-24 07:59:01] Текст ошибки: Страница не найдена | Файл: /Applications/XAMPP/xamppfiles/docs/ishop2.loc/vendor/ishop/core/Router.php | Строка: 51
+---------------------
